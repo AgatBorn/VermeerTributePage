@@ -1,0 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Catamaran", sans-serif;
+  color: #f2ece0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.titleSection {
+  background-color: #141217;
+}
+
+.titleSection .titleGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titleSection .titleGrid .titleGrid__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__name {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__date {
+  margin-top: 0px;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__links {
+  border-top: 1px solid #f2ece0;
+  border-color: #f2ece0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__links li:first-child {
+  margin-top: 40px;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__links li a {
+  text-decoration: none;
+  color: #f2ece0;
+}
+
+.titleSection .titleGrid .titleGrid__info .titleGrid__links li a:hover {
+  color: #4c62ad;
+}
+
+.titleGrid__photo img {
+  display: block;
+  height: 100vh;
+  width: auto;
+}
+
+.lifeTitleSection {
+  background-color: #4c62ad;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.lifeSection {
+  color: #141217;
+  margin-top: 50px;
+}
+
+.lifeSection h3 {
+  margin-top: 70px;
+  color: #4c62ad;
+}
+
+.lifeSection .text-content-important {
+  color: #4c62ad;
+}
+
+.lifeSection__horizontal-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lifeSection__horizontal-gallery li {
+  list-style: none;
+}
+
+.lifeSection__horizontal-gallery li img {
+  display: block;
+  height: 260px;
+  max-width: 100%;
+}
+
+.youthAndHeritage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  justify-items: center;
+  text-align: justify;
+}
+
+.youthAndHeritage__map {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 0;
+}
+
+.youthAndHeritage__map img {
+  width: 100%;
+  height: auto;
+}
+
+.warAndDeathContent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+}
+
+.warAndDeathContent__text {
+  margin-top: 0;
+}
+
+.warAndDeathContent__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.warAndDeathContent__images img {
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.styleTitleSection {
+  margin-top: 100px;
+  background-color: #821c18;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.styleSection {
+  color: #141217;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */
